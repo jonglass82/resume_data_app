@@ -6,42 +6,13 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# Attributes of the Student Model
-# First Name
-# Last Name
-# Email
-# Phone Number
-# Short Bio
-# LinkedIn URL
-# Twitter Handle
-# Personal Blog/Website URL
-# Online Resume URL
-# Github URL
-# Photo
 
-Student.create!(first_name:"Peter", last_name:"xjiang", email:"pxjiang@email.com", phone_number:"8475508976", short_bio:"great student", linkedin_url:"www.linkedin/pjang", twitter_handle:"@pxangy", personal_website:"www.peter-xiang.com", online_resume_url:"resume/peter-xiang", github_url:"github/peterxiang", photo_url:"www.photos/pxiang.jpg")
+Student.create!(first_name:"Peter", last_name:"xjiang", email:"pxjiang@email.com", phone_number:"8475508976", short_bio:"great student", linkedin_url:"www.linkedin/pjang", twitter_handle:"@pxangy", personal_website_url:"www.peter-xiang.com", online_resume_url:"resume/peter-xiang", github_url:"github/peterxiang", photo_url:"www.photos/pxiang.jpg")
 
-# Each Student will have many:
+Experience.create!(start_date: "2002-09-24-06:00", student_id:1)
 
-# Experience
-# Start Date
-# End Date
-# Job Title
-# Company Name
-# Details (one long text field)
+Capstone.create!(name:"todo app", description:"a really cool app that makes a to do list", project_url:"www.mytodolist.com", screenshot_url:"www.todolist.com", student_id:2)
 
-# Education
-# Start Date
-# End Date
-# Degree
-# University Name
-# Details (one long text field)
+Education.create!(start_date: "2019-04-22 20:55:22", end_date: "2019-04-22 21:55:22", degree: "Masters in Computer Science", university_name: "Northwestern University", details: "I finished a 3 year masters program in 1 year. Graduated top of my class.", student_id: 1)
 
-# Skills
-# Skill Name (E.g. Ruby, HTML, CSS)
-
-# Capstone
-# Name
-# Description
-# URL
-# Screenshot (Optional)
+Skill.create!(skill_name: "Linux", student_id: 1)
