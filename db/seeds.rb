@@ -7,11 +7,11 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Student.create!(first_name:"Jon", last_name:"Snow", email:"jon@email.com", phone_number:"1231231234", short_bio:"my real name is aegon", linkedin_url:"www.linkedin/jon", twitter_handle:"@jon", personal_website_url:"www.jon-udhayananondh.com", online_resume_url:"resume/jon", github_url:"github/jon", photo_url:"www.photos/jon.jpg")
+Student.create!(first_name:"Jon", last_name:"Snow", email:"jon@email.com", phone_number:"1231231234", short_bio:"my real name is aegon", linkedin_url:"www.linkedin/jon", twitter_handle:"@jon", personal_website_url:"www.jon-udhayananondh.com", online_resume_url:"resume/jon", github_url:"github/jon", photo_url:"www.photos/jon.jpg", password: "password", password_confirmation: "password")
 
-Student.create!(first_name:"Tyrion", last_name:"Lannister", email:"tyrion@email.com", phone_number:"8475208976", short_bio:"a lannister always pays his debts", linkedin_url:"www.linkedin/tyrion", twitter_handle:"@tyrion", personal_website_url:"www.tyrion.com", online_resume_url:"resume/tyrion", github_url:"github/tyrion", photo_url:"www.photos/tyrio.jpg")
+Student.create!(first_name:"Tyrion", last_name:"Lannister", email:"tyrion@email.com", phone_number:"8475208976", short_bio:"a lannister always pays his debts", linkedin_url:"www.linkedin/tyrion", twitter_handle:"@tyrion", personal_website_url:"www.tyrion.com", online_resume_url:"resume/tyrion", github_url:"github/tyrion", photo_url:"www.photos/tyrio.jpg", password: "password", password_confirmation: "password")
 
-Student.create!(first_name:"Daenerys", last_name:"Targaryen", email:"daenerys@email.com", phone_number:"8475208976", short_bio:"i am the blood of the dragon", linkedin_url:"www.linkedin/daenerys", twitter_handle:"@daenerys", personal_website_url:"www.daenerys.com", online_resume_url:"resume/daenerys", github_url:"github/daenerys", photo_url:"www.photos/daenerys.jpg")
+Student.create!(first_name:"Daenerys", last_name:"Targaryen", email:"daenerys@email.com", phone_number:"8475208976", short_bio:"i am the blood of the dragon", linkedin_url:"www.linkedin/daenerys", twitter_handle:"@daenerys", personal_website_url:"www.daenerys.com", online_resume_url:"resume/daenerys", github_url:"github/daenerys", photo_url:"www.photos/daenerys.jpg", password: "password", password_confirmation: "password")
 
 
 Experience.create!(start_date: "2002-09-24-06:00", end_date: "2003-09-24-06:00", job_title: "Squire", company_name: "Nightswatch", details: "Night gathers, and now my watch begins. It shall not end until my death. I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory", student_id: 1)
