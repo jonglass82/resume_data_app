@@ -47,4 +47,3 @@ Skill.create!(skill_name: "Leadership", student_id: 3)
 Skill.create!(skill_name: "Dragonriding", student_id: 3)
 
 
-
